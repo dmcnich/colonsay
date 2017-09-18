@@ -1,0 +1,206 @@
+---
+---
+
+@charset "UTF-8";
+
+
+$back:#fff;
+$text:#555;
+$links:#af101c;
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("fonts/JosefinSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("fonts/JosefinSans-Italic.ttf");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("fonts/JosefinSans-SemiBold.ttf");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("fonts/Metropolis-Light.otf");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("fonts/Metropolis-LightItalic.otf");
+    font-weight: normal;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("fonts/Metropolis-Medium.otf");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Metropolis";
+    src: url("fonts/Metropolis-MediumItalic.otf");
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face { font-family: icon; src: url("icomoon.woff"); }
+
+html {
+ background:$back;
+ overflow-x: hidden;}
+
+body {
+ font-family:Metropolis, serif;
+ font-size:1.2em;
+ text-align:left;
+ margin:0;
+ color:$text;
+ hyphens:auto;
+ font-feature-settings:"liga","dlig";
+ overflow-x:hidden;}
+
+h1, h2 {
+ font-family:JosefinSans, sans-serif;
+ font-weight:normal;}
+
+h1 {
+ font-size:4em;
+ margin:0 0 1em 0;
+ color: $back;
+ & img {
+  width:100%;
+  margin:0 0 -1.2em 0;
+  border-radius:0;}}
+
+h3 {
+ font-size:1.4em;}
+
+img {
+ width:90%;
+ margin:5%;
+ border-radius:1em;
+ box-shadow:0 0 1em rgba(40,40,40,0.5);
+ &.small {
+  width:40%;
+  margin:5%;
+  border-radius:0.5em;
+  float:left;}}
+ 
+header, article, section {
+ margin:3em;}
+
+footer {
+ font-size:0.5em;
+ text-align:center;
+ margin:1em 6em;
+ ul {
+  margin-left:0;
+  padding-left:0;
+  list-style-type:none;
+  display:block;}
+ li {
+  display:inline-block;}}
+
+a {
+ text-decoration:none;
+ color:$links;
+ font-weight:bold;
+ &:hover {
+  text-decoration:underline;}
+ &:visited {
+  color:darken($links,13%);}
+ h1 & {
+  color:$text;}
+ h1 &:visited {
+  color:$text;}
+ h2 & {
+  color:$back;}
+ h2 &:visited {
+  color:$back;}}
+
+@mixin quotestyle {
+ color:lighten($text,30%);
+ font-size:4em;
+ position:absolute;
+ line-height:0.2em;
+ z-index:1;}
+
+blockquote {
+ &:before{
+  content:"\201c";
+  left:0.5em;
+  @include quotestyle}
+ &:after{
+  content:"\201d";
+  right:0.5em;
+  @include quotestyle}}
+
+@media only screen and (min-width:60em) {
+ header,article,section {
+  width:44em;
+  margin:3em auto;}
+
+ footer {
+  width:88em;
+  margin:6em auto;}}
+  
+@media only screen and (min-width:80em) {
+ footer {
+  position:fixed;
+  top:18em;
+  right:4em;
+  width:10em;
+  margin:0;
+  background:$back;
+  border-radius:0.2em;
+  z-index:1}}
+
+@media only screen and (max-width:40em) {
+ body {
+  font-size:1.2em;}
+ article, section {
+  margin:2em;}
+ pre {
+  font-size:0.8em;}
+ header {
+  margin-top: 2.2em;}
+ h1 img {
+  width: 100%;}
+ footer {
+  position: fixed;
+  top: 0em;
+  width: 100%;
+  font-family: icon;
+  font-size: 1em;
+  background: $back;
+  background: rgba($back, 0.8);
+  margin: -0.4em 0em;
+  display: block;
+  box-shadow: 0 0 0.3em $back; }
+ #licence, #read, .tag {
+  display: none;}
+ footer p, footer ul {
+  display: inline-block;
+  margin: 0.5em 1em;
+  padding: 0; }}
