@@ -54,13 +54,15 @@ body {
  hyphens:auto;
  font-feature-settings:"liga","dlig";
  overflow-x:hidden;
- background:url("images/sunset.jpeg") 50% top / cover no-repeat fixed rebeccapurple;
- background-attachment:initial;}
+ background:url("images/sunset.jpeg") 50% top / 100% no-repeat fixed rebeccapurple;}
 
 h1 {
  font-size:4em;
  color: $back;
  text-shadow: 0 0 0.2em black;}
+
+h2, h3 {
+ text-align:center;}
 
 header {
  height:40vh;
@@ -96,6 +98,8 @@ a {
   color:$text;}}
 
 @media only screen and (min-width:60rem) {
+ body {
+  background-size:cover;}
  header,nav,section,footer {
   width:54rem;
   margin:0 auto;}
