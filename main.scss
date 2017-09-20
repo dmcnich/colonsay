@@ -74,7 +74,7 @@ nav, section, footer {
 
 ul li {
  display: inline-block;
- width: 30%;
+ width:30%;
  margin:0;
  padding:0;
  text-align:center;}
@@ -105,6 +105,12 @@ a {
  body {
   font-size:1em;}
  nav {
+  position:absolute;
+  bottom:0;
+  width:100vw;
+  padding:0}
+ nav ul li{
   font-family:icomoon;
   font-size:1.5em;
-  font-weight: normal;}}
+  font-weight: normal;
+  width:28%}}
