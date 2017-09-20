@@ -3,8 +3,6 @@ title: Isle of Colonsay
 layout: default
 ---
 
-<iframe id="forecast_embed" frameborder="0" height="245" width="60%" src="https://forecast.io/embed/#lat= 56.075721&amp;lon=-6.221008&amp;name=Isle of Colonsay&amp;color=#af101c&amp;units=uk"></iframe>
-
 
 The island of Colonsay lies in the Hebrides off the west coast of Scotland. Fifteen miles to the north lies the island of [Mull][]; the eastern and southern horizons are bounded by the islands of [Jura][] and [Islay][]; and to the south west, just visible from a high point on a clear day, is the coast of Donegal in Ireland. To the west lies the Atlantic, with only the [Du Hirteach][] lighthouse standing between Colonsay and [Canada][]. Together with its semi-detatched neighbour [Oransay][], it forms an island group roughly ten miles long and two miles wide.
 
@@ -45,6 +43,8 @@ There is evidence of human activity on Colonsay going back to 7,000 B.C. and all
 Of all of the historical artefacts to be found on Colonsay and Oransay, the priory on Oransay is without doubt the most impressive. Local legend has it that Oransay was visited by Columba on his journey into exile from his native Ireland. On climbing Beinn Oransay on a clear day he discovered that he could still see the coast of Ireland so he sailed on, eventually founding the religious community on Iona.
 
 While it would be nice to lay claim to a monastic site predating Iona, the magnificent priory on Oransay, much of which much is still standing today, was actually founded by the Augustinians in the early 14th century and became an important religious centre for the islands and Argyll over the next two hundred years. The ruins are well-preserved and there is a wonderful collection of carved gravestones.
+
+<iframe id="forecast_embed" frameborder="0" height="245" width="245" src="https://forecast.io/embed/#lat= 56.075721&amp;lon=-6.221008&amp;name=Isle of Colonsay&amp;color=#af101c&amp;units=uk"></iframe>
 
 [Mull]: http://www.isle-of-mull.net
 [Jura]: http://www.jurainfo.com/
