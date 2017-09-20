@@ -100,7 +100,8 @@ a {
   margin-bottom:100vh;}}
 
 @media only screen and (max-width:40em) {
- nav,section {
-  podding: 0.5em 1.5em;}
- footer {
-  padding: 0.5em 3em;}}
+ body {
+  font-size:1em;}
+ nav {
+  font-family:icomoon;}
+}
