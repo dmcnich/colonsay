@@ -1,6 +1,5 @@
 ---
 title: Isle of Colonsay
-image: kiloran
 layout: default
 ---
 

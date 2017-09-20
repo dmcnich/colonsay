@@ -78,7 +78,8 @@ body {
  color:$text;
  hyphens:auto;
  font-feature-settings:"liga","dlig";
- overflow-x:hidden;}
+ overflow-x:hidden;
+ background:url(images/kiloran.jpeg) 50% top / auto 50vh no-repeat fixed rebeccapurple;}
 
 h1, h2 {
  font-family:JosefinSans, sans-serif;
@@ -88,10 +89,7 @@ h1 {
  font-size:4em;
  margin:0 0 1em 0;
  color: $back;
- & img {
-  width:100%;
-  margin:0 0 -1.2em 0;
-  border-radius:0;}}
+ height:40vh;}
 
 h3 {
  font-size:1.4em;}
