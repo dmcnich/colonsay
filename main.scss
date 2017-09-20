@@ -10,35 +10,35 @@ $links:#af101c;
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-Light.ttf");
+    src: url("assets/JosefinSans-Light.ttf");
     font-weight: bold;
     font-style: normal
 }
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-LightItalic.ttf");
+    src: url("assets/JosefinSans-LightItalic.ttf");
     font-weight: bold;
     font-style: italic
 }
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-Regular.ttf");
+    src: url("assets/JosefinSans-Regular.ttf");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-Italic.ttf");
+    src: url("assets/JosefinSans-Italic.ttf");
     font-weight: normal;
     font-style: italic
 }
 
 @font-face { 
     font-family: icomoon; 
-    src: url("fonts/icomoon.woff");}
+    src: url("assets/icomoon.woff");}
 
 html {
  background:$back;
@@ -54,7 +54,7 @@ body {
  hyphens:auto;
  font-feature-settings:"liga","dlig";
  overflow-x:hidden;
- background:url(images/sunset.jpeg) 50% top / cover no-repeat fixed rebeccapurple;}
+ background-image:url("images/sunset.jpeg") 50% top / cover no-repeat fixed rebeccapurple;}
 
 h1 {
  font-size:4em;
@@ -99,15 +99,16 @@ a {
   width:54rem;
   margin:0 auto;}
  footer{
-  margin-bottom:100vh;}}
+  margin-bottom:99vh;}}
 
 @media only screen and (max-width:40em) {
  body {
-  font-size:1em;}
+  font-size:1em;
+  position:relative;}
  nav {
   position:absolute;
   bottom:0;
-  width:100vw;
+  width:100%;
   padding:0}
  nav ul li{
   font-family:icomoon;
