@@ -10,28 +10,28 @@ $links:#af101c;
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-Regular.ttf");
+    src: url("fonts/JosefinSans-Light.ttf");
     font-weight: bold;
     font-style: normal
 }
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-Italic.ttf");
+    src: url("fonts/JosefinSans-LightItalic.ttf");
     font-weight: bold;
     font-style: italic
 }
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-SemiBold.ttf");
+    src: url("fonts/JosefinSans-Regular.ttf");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("fonts/JosefinSans-SemiBoldItalic.ttf");
+    src: url("fonts/JosefinSans-Italic.ttf");
     font-weight: normal;
     font-style: italic
 }
@@ -44,7 +44,7 @@ html {
 
 body {
  font-family:JosefinSans, serif;
- font-size:1.2em;
+ font-size:1.5em;
  text-align:left;
  margin:0;
  padding:0;
@@ -52,15 +52,19 @@ body {
  hyphens:auto;
  font-feature-settings:"liga","dlig";
  overflow-x:hidden;
- background:url(images/kiloran.jpeg) 50% top / cover no-repeat fixed rebeccapurple;}
+ background:url(images/sunset.jpeg) 50% top / cover no-repeat fixed rebeccapurple;}
 
 h1 {
  font-size:4em;
- color: $back;}
+ color: $back;
+ text-shadow: 0 0 0.5em black;}
 
 header {
  height:40vh;
  padding:1em;}
+
+nav a {
+ text-decoration:none;}
  
 nav, section, footer {
  background:$back;
@@ -90,5 +94,13 @@ a {
 
 @media only screen and (min-width:60rem) {
  header,nav,section,footer {
-  width:60rem;
-  margin:0 auto;}}
+  width:54rem;
+  margin:0 auto;}
+ footer{
+  margin-bottom:100vh;}}
+
+@media only screen and (max-width:40em) {
+ nav,section {
+  podding: 0.5em 1.5em;}
+ footer {
+  padding: 0.5em 3em;}}
