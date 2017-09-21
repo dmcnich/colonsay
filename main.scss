@@ -54,7 +54,7 @@ body {
  hyphens:auto;
  font-feature-settings:"liga","dlig";
  overflow-x:hidden;
- background:url("images/sunset.jpeg") 50% top / 100% no-repeat fixed rebeccapurple;}
+ background:url("images/sunset.jpeg") 50% top / auto 100vh no-repeat fixed rebeccapurple;}
 
 h1 {
  font-size:4em;
@@ -99,7 +99,7 @@ a {
 
 @media only screen and (min-width:60rem) {
  body {
-  background-size:cover;}
+  background-size:cover !important;}
  header,nav,section,footer {
   width:54rem;
   margin:0 auto;}
