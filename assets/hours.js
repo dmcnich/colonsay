@@ -1,6 +1,6 @@
 var currentTime = new Date().getHours();
 var pre = "url(images/"
-var post = ".jpeg) 50% top / 100% no-repeat fixed rebeccapurple"
+var post = ".jpeg) 50% top / auto 100vh no-repeat fixed rebeccapurple"
 
 if (7 <= currentTime && currentTime < 9) {
     document.getElementById("target").style.background = pre+"kiloran"+post
