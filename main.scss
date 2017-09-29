@@ -73,7 +73,9 @@ header {
  padding:1em;}
 
 nav a {
- text-decoration:none;}
+ text-decoration:none;
+ &:hover {
+  text-decoration:underline;}}
 
 nav, section, footer {
  background:$back;

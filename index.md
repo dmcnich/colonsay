@@ -17,8 +17,8 @@ Whenever you come, we can promise you one thing: you'll fall in love with the is
 [Oransay]: http://www.rspb.org.uk/reserves-and-events/find-a-reserve/reserves-a-z/reserves-by-name/o/oronsay/index.aspx
 [hotel]: http://www.colonsayholidays.co.uk/
 [shop]: http://www.colonsayshop.net/
-[two]: http://www.thecolonsaypantry.co.uk
-[cafes]: http://www.colonsayholidays.co.uk/the-island/gardens-cafe/565
+[cafes]: http://www.thecolonsaypantry.co.uk
+[two]: http://www.colonsayholidays.co.uk/the-island/gardens-cafe/565
 [ferry]: https://www.calmac.co.uk/oban-colonsay-portaskaig-kennacraig-colonsay-ferry-summer-timetable
 [in the winter]: https://www.calmac.co.uk/oban-colonsay-portaskaig-kennacraig-colonsay-ferry-winter-timetable
 [Oban]: https://www.oban.org.uk/index.php
