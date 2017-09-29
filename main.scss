@@ -10,25 +10,9 @@ $links:#006abe;
 
 @font-face {
     font-family: "JosefinSans";
-    src: url("assets/josefin-sans-v11-latin-100.woff2") format('woff2'),
-         url("assets/josefin-sans-v11-latin-100.woff") format('woff');
-    font-weight: bold;
-    font-style: normal
-}
-
-@font-face {
-    font-family: "JosefinSans";
-    src: url("assets/josefin-sans-v11-latin-100italic.woff2") format('woff2'),
-         url("assets/josefin-sans-v11-latin-100italic.woff") format('woff');
-    font-weight: bold;
-    font-style: italic
-}
-
-@font-face {
-    font-family: "JosefinSans";
     src: url("assets/josefin-sans-v11-latin-300.woff2") format('woff2'),
          url("assets/josefin-sans-v11-latin-300.woff") format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal
 }
 
@@ -36,6 +20,22 @@ $links:#006abe;
     font-family: "JosefinSans";
     src: url("assets/josefin-sans-v11-latin-300italic.woff2") format('woff2'),
          url("assets/josefin-sans-v11-latin-300italic.woff") format('woff');
+    font-weight: bold;
+    font-style: italic
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("assets/josefin-sans-v11-latin-regular.woff2") format('woff2'),
+         url("assets/josefin-sans-v11-latin-regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("assets/josefin-sans-v11-latin-italic.woff2") format('woff2'),
+         url("assets/josefin-sans-v11-latin-italic.woff") format('woff');
     font-weight: normal;
     font-style: italic
 }

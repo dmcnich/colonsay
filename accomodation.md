@@ -49,7 +49,7 @@ Fasgadh
 
 [Garta][]
 
-4b Glassard
+[4b Glassard][]
 
 [Longfield][]
 
@@ -79,6 +79,7 @@ Fasgadh
 [Colnatarun]: http://www.colonsaycottage.co.uk
 [Drumclach]: http://www.spanglefish.com/CeolCholasatheweesite/index.asp
 [Garta]: http://www.gartacolonsay.co.uk
+[4b Glassard]: https://www.independentcottages.co.uk/scottish_islands/4b-glassard-ref1641
 [Longfield]: http://www.colonsay.eu/AccoLongfld.htm
 [Mo Dhachaidh]: http://www.colonsayselfcatering.co.uk
 [Old Mill]: http://www.oldmillcolonsay.com
