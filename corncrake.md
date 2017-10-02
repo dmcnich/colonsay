@@ -5,9 +5,12 @@ layout: default
 
 <div class="archive">
 Back Issues:
-{% for post in site.corncrake %}
-- [{{post.title}}]({{post.url}})
-{% endfor %}
+<ul>
+  {% for post in site.corncrake %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+  {% endfor %}
+</ul>
+</div>
 
 <div class="issue">
   {{site.corncrake.last}}
