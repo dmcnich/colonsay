@@ -30,6 +30,6 @@ images:
 
 <ul class="gallery">
   {% for image in page.images %}
-    <li><img src="/images/{{ image.path }}.jpeg" alt="{{ image.title }}" /></li>
+    <li><img src="images/{{ image.path }}.jpeg" alt="{{ image.title }}" /></li>
   {% endfor %}
 </ul>
