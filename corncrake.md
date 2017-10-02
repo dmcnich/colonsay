@@ -7,7 +7,7 @@ layout: default
 Back Issues:
 <ul>
   {% for post in site.corncrake %}
-    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    <li><a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
   {% endfor %}
 </ul>
 </div>
