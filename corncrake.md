@@ -14,5 +14,5 @@ Back Issues:
 
 <div class="issue">
   <h2>Issue {{site.corncrake.last.title}}</h2>
-  {{site.corncrake.last}}
+  {{site.corncrake.last.content}}
 </div>
