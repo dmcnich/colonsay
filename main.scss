@@ -103,6 +103,10 @@ a {
  h1 &:visited {
   color:$text;}}
 
+img {
+    width:100%
+}
+
 @media only screen and (min-width:60rem) {
  body {
   background-size:cover !important;}
