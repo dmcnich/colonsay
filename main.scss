@@ -111,10 +111,17 @@ img {
  width:100%;
 }
 
+h4 {
+ margin-bottom:0;}
+
 .archive {
  width:10rem;
  float:right;
-}
+ & ul {
+  margin:0;
+  padding:0;}
+ & li {
+  display:inline-block;}}
 
 @media only screen and (min-width:60rem) {
  body {
