@@ -88,6 +88,10 @@ nav ul li {
  padding:0;
  text-align:center;}
 
+ul {
+ list-style-type: none;
+}
+
 footer {
  font-size:0.5em;
  text-align:center;
@@ -104,12 +108,12 @@ a {
   color:$text;}}
 
 img {
-    width:100%;
+ width:100%;
 }
 
 .archive {
-    width:10rem;
-    float:right;
+ width:10rem;
+ float:right;
 }
 
 @media only screen and (min-width:60rem) {
