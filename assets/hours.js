@@ -1,5 +1,5 @@
 var currentTime = new Date().getHours();
-var pre = "url(images/"
+var pre = "url(https://dmcnich.github.io/colonsay/images/"
 var post = ".jpeg) 50% top / auto 100vh no-repeat fixed rebeccapurple"
 
 if (7 <= currentTime && currentTime < 9) {
