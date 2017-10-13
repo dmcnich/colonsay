@@ -2,30 +2,30 @@
 title: The View
 layout: default
 images:
-    - path: aerial
-      title: From the air
-    - path: green
-      title: Rock pool
-    - path: harbour
-      title: Scalasaig harbour
-    - path: high
-      title: Kiloran from on high
-    - path: kiloran
-      title: Kiloran from lower down
-    - path: paps
-      title: The paps of Jura
-    - path: scalasaig
-      title: The village
-    - path: seil
-      title: The view from oronsay
-    - path: south
-      title: Kiloran from the north
-    - path: stone
-      title: Fingal's limpet hammer
-    - path: sunkiss
-      title: A sunset from somewhere
-    - path: sunset
-      title: A sunset at Port Mor
+- path: aerial
+  title: From the air
+- path: green
+  title: Rock pool
+- path: harbour
+  title: Scalasaig harbour
+- path: high
+  title: Kiloran from on high
+- path: kiloran
+  title: Kiloran from lower down
+- path: paps
+  title: The paps of Jura
+- path: scalasaig
+  title: The village
+- path: seil
+  title: The view from oronsay
+- path: south
+  title: Kiloran from the north
+- path: stone
+  title: Fingal's limpet hammer
+- path: sunkiss
+  title: A sunset from somewhere
+- path: sunset
+  title: A sunset at Port Mor
 ---
 
 <ul class="gallery">
