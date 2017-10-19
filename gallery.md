@@ -14,7 +14,6 @@ images:
   title: The abandoned estate sawmill
 - path: garden
   title: The community garden
-
 ---
 
 <ul class="gallery">
