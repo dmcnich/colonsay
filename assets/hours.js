@@ -3,7 +3,7 @@ var pre = "url(https://dmcnich.github.io/colonsay/images/"
 var post = ".jpeg) 50% top / auto 100vh no-repeat fixed rebeccapurple"
 
 
-else if (7 <= currentTime && currentTime < 11) {
+if (7 <= currentTime && currentTime < 11) {
     document.getElementById("target").style.background = pre+"logs"+post
     }
 
