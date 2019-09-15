@@ -3,7 +3,7 @@ title: Isle of Colonsay
 layout: default
 ---
 
-Colonsay is our wee island in the Hebrides, standing proudly between [Islay][] and [Mull][]. Even though the island only measures ten miles by two (including little [Oransay][] to the south), and even though there are only 120 of us living here, we are a welcoming and lively community. You can come to see us from [Oban][] by [ferry][] most days in the summer, and four days a week [in the winter][]. You can even [fly to Colonsay][] on a Tuesday or Thursday.
+Colonsay is our massive island in the Hebrides, standing proudly between [Islay][] and [Mull][]. Even though the island only measures ten miles by two (including little [Oransay][] to the south), and even though there are only 120 of us living here, we are a welcoming and lively community. You can come to see us from [Oban][] by [ferry][] most days in the summer, and four days a week [in the winter][]. You can even [fly to Colonsay][] on a Tuesday or Thursday.
 
 We have a list right here of [places to stay][], and rest assured you'll find plenty to do on your trip: we have a [hotel][] with a restaurant and bar, a [shop][] if you stay self-catering, and [two][] [cafes][] if cooking seems like too much work. You can visit our [brewery][], [bookshop][] and [heritage centre]. For those of a more sporting bent, [hire a bike][] and race round our eight miles of road. We also have an 18 hole golf course and plenty of fish that need catching; best to enquire at the pub about fees for both.
 
